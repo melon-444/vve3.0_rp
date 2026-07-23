@@ -1,17 +1,17 @@
 {
 	"textures": {
-		"0": "bx_res_bca:bx_vehicle_0/wheel/2",
-		"1": "bx_res_bca:bx_vehicle_0/wire",
-		"2": "bx_res_bca:bx_vehicle_0/glass",
-		"3": "bx_res_bca:bx_vehicle_0/steer",
-		"4": "bx_res_bca:bx_vehicle_0/head_top",
-		"5": "bx_res_bca:bx_vehicle_0/mouth",
-		"6": "bx_res_bca:bx_vehicle_0/head_up",
-		"7": "bx_res_bca:bx_vehicle_0/head_down",
-		"8": "bx_res_bca:bx_vehicle_0/side",
-		"9": "bx_res_bca:bx_vehicle_0/sit",
-		"10": "bx_res_bca:bx_vehicle_0/down",
-		"particle": "bx_res_bca:bx_vehicle_0/wheel/2"
+		"0": "bx_res_bca:item/bx_vehicle_0/wheel/2",
+		"1": "bx_res_bca:item/bx_vehicle_0/wire",
+		"2": "bx_res_bca:item/bx_vehicle_0/glass",
+		"3": "bx_res_bca:item/bx_vehicle_0/steer",
+		"4": "bx_res_bca:item/bx_vehicle_0/head_top",
+		"5": "bx_res_bca:item/bx_vehicle_0/mouth",
+		"6": "bx_res_bca:item/bx_vehicle_0/head_up",
+		"7": "bx_res_bca:item/bx_vehicle_0/head_down",
+		"8": "bx_res_bca:item/bx_vehicle_0/side",
+		"9": "bx_res_bca:item/bx_vehicle_0/sit",
+		"10": "bx_res_bca:item/bx_vehicle_0/down",
+		"particle": "bx_res_bca:item/bx_vehicle_0/wheel/2"
 	},
 	"elements": [
 		{
@@ -459,6 +459,11 @@
 		"head": {
 			"translation": [0, -11.5, 0],
 			"scale": [4, 4, 4]
+		},
+		"fixed":{
+			"scale":[1.0,1.0,1.0],
+			"rotation":[0.0,0.0,0.0],
+			"translation":[0.0,4.8,0.0]
 		}
 	},
 	"groups": [
